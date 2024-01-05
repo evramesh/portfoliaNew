@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sub {
+  display: flex;
+}
+.head {
+  color: #117d05;
+}
+.mini {
+  background-color: #174213;
+  color: white;
+  padding: 1em;
+  font-size: 18px;
+  border-radius: 2em;
+  margin: 1em;
+  width: 50%;
+}
+.mini-1 {
+  margin: 1em;
+  background-color: #174213;
+  border-radius: 2em;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.input {
+  margin: 5px;
+}
+.btn-2:hover {
+  background-color: #8f3207;
+  color: white;
+}
+.btn-2 {
+  margin: 2em;
+}
+@media only screen and (max-width: 600px) {
+  .sub {
+    flex-direction: column;
+  }
+  .mini {
+    font-size: 13px;
+  }
+  .head {
+    font-size: 20px;
+  }
+}

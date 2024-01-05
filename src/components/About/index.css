@@ -1,0 +1,10 @@
+.about {
+  background-color: #327d04;
+  color: white;
+  margin: 1em;
+  padding: 1em;
+}
+.span-1 {
+  background-color: #7d4004;
+  font-weight: bold;
+}

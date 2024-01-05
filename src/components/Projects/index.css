@@ -1,0 +1,32 @@
+.list {
+  list-style: none;
+}
+.para {
+  overflow-y: auto;
+  height: 250px;
+  width: 250px;
+  margin: 15px;
+}
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.name-pro {
+  color: white;
+  background-color: #12a802;
+  font-size: 16px;
+  margin: 15px;
+}
+.btn {
+  background-color: #13ab02;
+  color: aliceblue;
+  border-width: 0px;
+  padding: 5px;
+  margin: 5px;
+}
+.whole {
+  color: #0e6904;
+  font-family: roboto;
+}
